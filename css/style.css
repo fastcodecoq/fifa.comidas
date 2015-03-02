@@ -189,7 +189,7 @@ section.content-inicio{
 	height: 100%;
 }
 .slides-desc div img{
-	max-height: 90%;
+	width: 320px;
 }
 
 /*Views*/
