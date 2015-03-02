@@ -107,9 +107,9 @@ nav li a:hover{
 nav li.domicilio a{
 	background: #303030;
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-	color:black;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #ECC530;
 	text-align: center;
 }
 nav li.domicilio i{
