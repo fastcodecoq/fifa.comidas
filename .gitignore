@@ -1,0 +1,5 @@
+sftp-config.json
+*.zip
+*.rar
+*.tgz
+*.tar.*
