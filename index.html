@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="FIFA">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FIFA</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<a href="./" class="logo">
+			<img src="img/logo.png" alt="Logo">
+		</a>
+	    <ul>
+	        <li><a href="#/Menus">Menús</a></li><!--
+	     --><li><a href="#/Restaurantes">Restaurantes</a></li><!--
+	     --><li><a href="#/Novedades">Novedades</a></li><!--
+	     --><li><a href="#/Promociones">Promociones</a></li><!--
+	     --><li class="domicilio"><a href="#/Domicilio">Domicilio<i class="fa fa-truck"></i></a></li><!--
+	     --><li><a href="#/Eventos">Eventos</a></li>
+	    </ul>
+	</nav>
+	<section class="cont" style="position:relative;">
+	<section class="container fade" ng-view>
+		
+	</section>
+	
+	</section>
+	
+	
+	<script src="js/jquery.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/fifa.js"></script>
+</body>
+</html>
