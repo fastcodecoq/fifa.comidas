@@ -179,8 +179,7 @@ section.content-inicio{
 	width: 40%;
 }
 .princ-slides .item img{
-	max-height: 100%;
-	max-width: 100%;
+	width: 380px;
 }
 .princ-slides .item{
 	height:100%;
